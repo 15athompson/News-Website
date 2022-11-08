@@ -1,0 +1,73 @@
+<html>
+  
+<head>
+   
+    <meta name="description" content="sample meta description.">
+    <meta charset="utf-8" />
+        <title>Unreal News</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <script src="https://kit.fontawesome.com/e0ab333f43.js" crossorigin="anonymous"></script>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJB8PX2H6B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TJB8PX2H6B');
+</script>
+
+
+</head>
+  
+<body id=”education-page”>
+    
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+                        <a class="navbar-brand" href="index.html">Unreal News</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            </button>
+              <div class="collapse navbar-collapse" id="navbarNav">               
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa-solid fa-house-user">&#160&#160</i>Home</a> <!--  "&#160" will add spaces -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sport.html"><i class="fa-solid fa-baseball-bat-ball">&#160&#160</i>Sport</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html"><i class="fa-solid fa-user-graduate">&#160&#160</i>Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gaming.html"><i class="fa-solid fa-gamepad">&#160&#160</i>Gaming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html"><i class="fa-solid fa-search">&#160&#160</i>Search</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="mt-5">
+        <h1>Education News</h1>
+        <div id="results" class="row mt-4"></div>
+    </div>
+    
+    <script 
+        src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+    <script src="./js/education.js"></script>
+
+</body>
+
+</html>

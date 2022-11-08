@@ -1,0 +1,58 @@
+@import "vendors/bootstrap";
+//@import "layout/bootstrap";
+//@import "pages/bootstrap";
+//@import "components/bootstrap";
+
+div .jumbotron {
+    background-image: url("../images/new-york-1867569_960_720.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    color: rgb(224, 50, 64);
+    
+    
+}  
+
+body {
+    background-color: rgba(95, 84, 4, 0.644)
+    
+}
+
+h2 {
+   
+    
+}
+
+nav .navbar-brand {
+    font-family: 'Bangers', cursive;
+
+}
+
+nav ul li a i {
+    margin-right: 2px;
+}
+
+img {
+         
+    margin-top: 20px;
+    
+  }
+
+  #results {
+    list-style: none;
+    padding: 0;
+    
+     li {
+        display: inline-block;
+        padding: 10px;
+        width: 25%;
+
+        li a {
+            color: #000;
+        }
+    }
+    
+     
+}
+
+  
